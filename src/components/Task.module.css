@@ -1,0 +1,37 @@
+.container {
+  width: 45.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid #333333;
+  margin-bottom: 0.75rem;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.text {
+  padding: 0 0.75rem;
+  width: 39.25rem;
+}
+
+.checked {
+  padding: 0 0.75rem;
+  width: 39.25rem;
+  text-decoration: line-through;
+}
+
+.icon {
+  height: 1.5rem;
+}
+
+.button {
+  flex: 1;
+  background-color: #262626;
+  border: none;
+}
+
+.trashIcon:hover {
+  background-color: #333333;
+  border-radius: 0.25rem;
+}
